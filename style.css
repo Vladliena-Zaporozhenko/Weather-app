@@ -1,13 +1,37 @@
-h1,
-h4 {
+h2,
+h5 {
   text-align: center;
 }
 
-.generaltemperature {
+.weather-temperature img {
+  margin: 0 auto;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.container-weather {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.bigTemp {
   text-align: center;
-  font-size: 110px;
+  font-size: 70px;
 }
 .col-3 {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
+}
+.units {
+  position: relative;
+  font-size: 25px;
+  top: -32px;
+}
+
+.units .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
 }
