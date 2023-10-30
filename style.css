@@ -35,3 +35,7 @@ h5 {
   cursor: default;
   text-decoration: none;
 }
+
+.weather-forecast {
+  text-align: center;
+}
